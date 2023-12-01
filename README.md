@@ -1,5 +1,4 @@
-# dl-proj
-research paper and proj uploaded
+
 # Project Title
 
 Reuters 21578
@@ -31,7 +30,7 @@ In summary, the data processing pipeline includes loading and preprocessing text
 pip install numpy pandas scikit-learn nltk gensim
 
 # Libraries for Text Classification
-import numpy as np
+import numpy as np <br>
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
