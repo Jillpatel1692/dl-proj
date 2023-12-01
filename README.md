@@ -1,7 +1,7 @@
 
 # Project Title
 
-Reuters 21578
+Reuters 21578 classification
 
 ## Table of Contents
 
