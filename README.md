@@ -58,6 +58,13 @@ from gensim.models import CoherenceModel <br>
 # Libraries for Document Categorization by Topics (Optional)
 from collections import defaultdict
 
+# Dependencies
+numpy==1.21.4
+pandas==1.3.3
+scikit-learn==0.24.2
+nltk==3.6.3
+gensim==4.1.2
+
 
 Results
 The code accomplishes text classification using Naive Bayes, includes optional data set splitting, and offers optional topic modeling using LDA. Results include classifier evaluation, data set organization, topic discovery, and document categorization by topics. Users can adapt the code for their text analysis tasks.
