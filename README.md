@@ -31,29 +31,29 @@ pip install numpy pandas scikit-learn nltk gensim
 
 # Libraries for Text Classification
 import numpy as np <br>
-import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import classification_report
-from nltk.corpus import reuters
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import PorterStemmer
+import pandas as pd <br>
+from sklearn.feature_extraction.text import TfidfVectorizer <br>
+from sklearn.model_selection import train_test_split <br>
+from sklearn.naive_bayes import MultinomialNB <br>
+from sklearn.metrics import classification_report <br>
+from nltk.corpus import reuters <br>
+from nltk.corpus import stopwords <br>
+from nltk.tokenize import word_tokenize <br>
+from nltk.stem import PorterStemmer <br>
 
 # Additional NLTK Downloads
-import nltk
-nltk.download("reuters")
-nltk.download("stopwords")
-nltk.download("punkt")
+import nltk 
+nltk.download("reuters") <br>
+nltk.download("stopwords") <br>
+nltk.download("punkt") <br>
 
 # Libraries for Data Set Splitting (Optional)
 from sklearn.utils import shuffle
 
 # Libraries for Topic Modeling (Optional)
 import gensim
-from gensim import corpora
-from gensim.models import CoherenceModel
+from gensim import corpora <br>
+from gensim.models import CoherenceModel <br>
 
 # Libraries for Document Categorization by Topics (Optional)
 from collections import defaultdict
